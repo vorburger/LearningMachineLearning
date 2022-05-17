@@ -1,4 +1,5 @@
-
+1. Learn https://fedoramagazine.org/mlcube-and-podman/
+ 
 1. How to use `matplotlib` to show probabilities as a chart? (`from matplotlib import pyplot as plt`)
 
 1. Try to hand-draw a digit on 28x28 pixels, and load that image file and have it recognized!

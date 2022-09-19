@@ -22,3 +22,10 @@
 1. https://colab.research.google.com/notebooks/gpu.ipynb
 
 1. https://colab.research.google.com/notebooks/tpu.ipynb
+
+1. Run on GCP?
+   * https://cloud.google.com/tpu/docs/intro-to-tpu
+   * https://cloud.google.com/tpu/docs/maintenance-events
+   * https://cloud.google.com/tpu/docs/managing-tpus-tpu-vm
+   * https://cloud.google.com/tpu/docs/system-architecture-tpu-vm
+   * https://cloud.google.com/tpu/docs/training-on-tpu-pods

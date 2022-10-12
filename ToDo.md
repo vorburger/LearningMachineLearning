@@ -29,3 +29,8 @@
    * https://cloud.google.com/tpu/docs/managing-tpus-tpu-vm
    * https://cloud.google.com/tpu/docs/system-architecture-tpu-vm
    * https://cloud.google.com/tpu/docs/training-on-tpu-pods
+
+1. https://www.youtube.com/c/HuggingFace
+1. https://huggingface.co/bert-base-uncased#how-to-use
+1. https://github.com/google-research/bert#using-bert-in-colab
+1. https://aws.amazon.com/blogs/industries/novartis-ag-uses-amazon-to-build-knowledge-graph-using-bert/

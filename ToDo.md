@@ -1,5 +1,7 @@
 1. Learn https://fedoramagazine.org/mlcube-and-podman/
- 
+
+1. https://mlcommons.github.io/mlcube/getting-started/mnist/
+
 1. How to use `matplotlib` to show probabilities as a chart? (`from matplotlib import pyplot as plt`)
 
 1. Try to hand-draw a digit on 28x28 pixels, and load that image file and have it recognized!
@@ -34,3 +36,5 @@
 1. https://huggingface.co/bert-base-uncased#how-to-use
 1. https://github.com/google-research/bert#using-bert-in-colab
 1. https://aws.amazon.com/blogs/industries/novartis-ag-uses-amazon-to-build-knowledge-graph-using-bert/
+
+1. https://www.kubeflow.org/docs/started/introduction/

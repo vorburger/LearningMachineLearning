@@ -4,6 +4,7 @@ This is a git repository started by [Michael Vorburger.ch](http://www.vorburger.
 
 ## Usage
 
-* https://colab.research.google.com/github/vorburger/LearningMachineLearning/blob/develop/beginner.ipynb
+1. https://colab.research.google.com/github/vorburger/LearningMachineLearning/blob/develop/beginner.ipynb
+1. [Keyword Spotter](docs/keyword-spotter.md)
 
 [ToDo.md](ToDo.md) has stuff to do.

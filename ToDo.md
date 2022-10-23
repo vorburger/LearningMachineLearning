@@ -11,8 +11,6 @@
    or https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html
    or https://www.tensorflow.org/install.
 
-1. How to automatically convert .ipynb to .py in a script and run it? (like Colab's File > Download menu)
-
 1. Write `Dockerfile` to run that .py in a container (using https://www.tensorflow.org/install ?)
 
 1. Separate the Training from the Inference, with saving & re-loading the training model

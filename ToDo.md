@@ -1,10 +1,21 @@
-1. _WARNING:tensorflow:No training configuration found in save file, so the model was *not* compiled. Compile it manually._
+1. Use `Interpreter`
+
+1. https://www.tensorflow.org/tfx/tutorials/serving/rest_simple
 
 1. Try to hand-draw a digit on 28x28 pixels, and load that image file and have it recognized!
 
-1. Write `Dockerfile` to run that .py in a container (using https://www.tensorflow.org/install ?)
+1. Use model in https://www.tensorflow.org/js and
+   hack a Web App with a 28x28 pixels Canvas to draw on!
 
-1. Hack a Web App with a 28x28 pixels Canvas to draw on!
+1. TF lite instead of full TF in `beginner-infer.py`
+   AFTER https://github.com/tensorflow/tensorflow/issues/58264 is fixed
+   (or after I can self build lite on a machine with more memory)
+
+1. Run the model with TF lite on the Coral board, using fixed image; then perhaps with the webcam?
+
+1. `WARNING:tensorflow:No training configuration found in save file, so the model was *not* compiled. Compile it manually.`
+
+1. _LOW PRIORITIY: Write `Dockerfile` to run that .py in a container (using https://www.tensorflow.org/install ?)_
 
 1. Learn https://fedoramagazine.org/mlcube-and-podman/
 

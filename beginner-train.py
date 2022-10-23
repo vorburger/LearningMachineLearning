@@ -41,11 +41,4 @@ probability_model = tf.keras.Sequential([
   tf.keras.layers.Softmax()
 ])
 
-# TODO range = :1 # :3
-input = x_test[:1] # TODO range
-probabilities = probability_model(input).numpy()
-print(probabilities)
-
-# %%
-test = y_test[:1] # TODO range
-print(test)
+probability_model.save('beginner.model')

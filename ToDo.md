@@ -32,6 +32,10 @@
    * https://cloud.google.com/tpu/docs/system-architecture-tpu-vm
    * https://cloud.google.com/tpu/docs/training-on-tpu-pods
 
+1. https://www.tensorflow.org/datasets
+
+1. https://www.kaggle.com
+
 1. https://www.youtube.com/c/HuggingFace
 1. https://huggingface.co/bert-base-uncased#how-to-use
 1. https://github.com/google-research/bert#using-bert-in-colab

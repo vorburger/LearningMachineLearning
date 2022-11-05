@@ -1,5 +1,7 @@
 1. https://developers.google.com/machine-learning/crash-course finished?
 
+1. https://codelabs.developers.google.com/tensorflowjs-coral-tflite-node
+
 1. https://www.tensorflow.org/resources/learn-ml
 
 1. Use `Interpreter`, 

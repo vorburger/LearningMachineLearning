@@ -1,3 +1,5 @@
+1. Waz https://github.com/edgeimpulse/voice-activated-microbit for https://www.edgeimpulse.com/blog/voice-activated-microbit ?
+
 1. https://developers.google.com/machine-learning/crash-course finished?
 
 1. https://codelabs.developers.google.com/tensorflowjs-coral-tflite-node

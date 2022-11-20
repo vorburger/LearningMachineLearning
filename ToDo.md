@@ -58,6 +58,8 @@
 
 1. https://www.tensorflow.org/lite/models/modify/model_maker
 
+1. https://github.com/iterative/dvc
+
 1. https://www.youtube.com/c/HuggingFace
 1. https://huggingface.co/bert-base-uncased#how-to-use
 1. https://github.com/google-research/bert#using-bert-in-colab

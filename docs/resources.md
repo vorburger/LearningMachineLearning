@@ -7,6 +7,8 @@
 
 ## Quick Intros (#watch #hack)
 
+* https://developers.google.com/codelabs/tensorflow-1-helloworld is a great simple very first Codelab
+
 * You can be an [ML Zero to Hero](https://youtube.com/playlist?list=PLQY2H8rRoyvwWuPiWnuTDBHe7I0fMSsfO) 
   by watching just x4 ~6' (24') videos! ;-)
 

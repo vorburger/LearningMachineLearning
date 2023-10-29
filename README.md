@@ -11,3 +11,5 @@ This is a git repository started by [Michael Vorburger.ch](http://www.vorburger.
    1. `./beginner-infer.py` uses `beginner.model/`
 
 [ToDo.md](ToDo.md) has stuff to do.
+
+[Resource](docs/resources.md) has moar!

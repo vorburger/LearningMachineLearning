@@ -1,12 +1,16 @@
-1. LLM @ home? https://github.com/Hannibal046/Awesome-LLM
-
-1. Waz https://github.com/edgeimpulse/voice-activated-microbit for https://www.edgeimpulse.com/blog/voice-activated-microbit ?
+1. Code "training" an AND & OR (1 layer) and XOR (2 layers) model! ;-)
 
 1. https://developers.google.com/machine-learning/crash-course finished?
 
 1. https://codelabs.developers.google.com/tensorflowjs-coral-tflite-node
 
 1. https://www.tensorflow.org/resources/learn-ml
+
+1. https://www.tensorflow.org/tfx/tutorials/serving/rest_simple
+
+1. LLM @ home? https://github.com/Hannibal046/Awesome-LLM
+
+1. Waz https://github.com/edgeimpulse/voice-activated-microbit for https://www.edgeimpulse.com/blog/voice-activated-microbit ?
 
 1. https://colossalai.org & https://github.com/hpcaitech/ColossalAI
 
@@ -16,8 +20,6 @@
 1. Try to hand-draw a digit on 28x28 pixels, 
    or a bigger JPEG or PNG image file, and downsize it with Py,
    and load that image file and have it recognized!
-
-1. https://www.tensorflow.org/tfx/tutorials/serving/rest_simple
 
 1. TFX Serving for Web, e.g. https://youtu.be/vhYBaxHs2kI
 

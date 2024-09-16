@@ -10,6 +10,6 @@ To start the slide show:
 - Press `o` for Overview
 - Press `d`for Dark Mode
 
-Edit the [slides.md](./slides.md) to see the changes.
+Edit the [slides.md](./slides.md) to see the changes; run `npx prettier slides.md --write` to format.
 
 Learn more about Slidev at the [documentation](https://sli.dev/).

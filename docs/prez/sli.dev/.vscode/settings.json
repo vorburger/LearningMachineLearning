@@ -1,3 +1,6 @@
 {
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "slidev.include": ["**/slides.md", "slidev.md", "pages/imported-slides.md"]
 }

@@ -29,7 +29,9 @@ Content licensed under [Creative Commons Attribution-ShareAlike 4.0 Internationa
 
 _The source code of this presentation is [available on GitHub!](https://github.com/vorburger/LearningMachineLearning/tree/develop/docs/prez)_
 
-<!-- I'll speak fast, let's chat together about questions during the breaks? -->
+<!--
+I'll speak fast, let's chat together about questions during the breaks?
+-->
 
 ---
 
@@ -37,10 +39,10 @@ _The source code of this presentation is [available on GitHub!](https://github.c
 
 <!-- TODO Find MD tool to extract and auto update insert TOC from headings, or make https://sli.dev/builtin/components#toc work -->
 
-* The Past
-* The Present
-* The Future
-* You?
+- The Past
+- The Present
+- The Future
+- You?
 
 ---
 layout: center
@@ -56,10 +58,10 @@ What is _programming ❓_
 
 Programming is to give computers (very) precise instructions, AKA _"Code",_ for what you want them to do, like:
 
-* Print `hello, world`
-* Variable `i = 7`
-* `if` i is still 7 `then` _do-that_
-* `for` loop 7 times
+- Print `hello, world`
+- Variable `i = 7`
+- `if` i is still 7 `then` _do-that_
+- `for` loop 7 times
 
 Written in a computer language - try out [Scratch](https://scratch.mit.edu), it's great to learn concepts!
 
@@ -83,14 +85,16 @@ _Large Language Models_
 
 # Training & Inferring
 
-* _Training_ is creating said _ML Models_ of _Parameters_ (from input data)
-* _Inferring_ (AKA _serving)_ is giving a model new (unseen) input, to ask it for _"inferred"_ output
+- _Training_ is creating said _ML Models_ of _Parameters_ (from input data)
+- _Inferring_ (AKA _serving)_ is giving a model new (unseen) input, to ask it for _"inferred"_ output
 
 Training effort is (somewhat) proportional to size of input data.
 
 Inferring effort is (comparatively) much smaller. Your (modern) Mobile Phone can do it!
 
-<!-- Pictures of digits, cats & dogs, or texts... -->
+<!--
+Pictures of digits, cats & dogs, or texts...
+-->
 
 ---
 
@@ -106,8 +110,12 @@ There are some interesting open questions about this.
 
 # Applications
 
-* Coding: E.g. GitHub Copilot (and many others)
-* Education: E.g. [Khan Academy's Khanmigo](https://www.youtube.com/watch?v=hJP5GqnTrNo&t=4s), or Homework with [Google Lens](https://lens.google) <!-- TODO Try & screenshot -->
+- Coding: E.g. GitHub Copilot (and many others)
+- Education: E.g. [Khan Academy's Khanmigo](https://www.youtube.com/watch?v=hJP5GqnTrNo&t=4s), or Homework with [Google Lens](https://lens.google)
+
+<!--
+TODO Try & screenshot
+-->
 
 ---
 
@@ -115,11 +123,11 @@ There are some interesting open questions about this.
 
 Large Models might know about "the world", but not "your world"... but:
 
-* Creating _huge prompts_ works great, AKA "Chat with your PDFs"; try e.g. [NotebookLM](https://notebooklm.google).
+- Creating _huge prompts_ works great, AKA "Chat with your PDFs"; try e.g. [NotebookLM](https://notebooklm.google).
 
-* _Fine Tuning_ is another ML technique to efficiently adapt a previously pre-trained model with new data.
+- _Fine Tuning_ is another ML technique to efficiently adapt a previously pre-trained model with new data.
 
-* _"Workflows"_ (e.g. LangChain's LangGraph, et al.)
+- _"Workflows"_ (e.g. LangChain's LangGraph, et al.)
 
 ---
 
@@ -145,21 +153,25 @@ Generally colloquially used as ~ _"[it can do some of your work](https://en.wiki
 
 We'll see; the next few years are going to be very interesting!
 
-<!-- Turing Test, Robot College Student Test, Employment Test, Ikea Test, Coffee Test, Modern Turing Test -->
+<!--
+Turing Test, Robot College Student Test, Employment Test, Ikea Test, Coffee Test, Modern Turing Test
+-->
 
 ---
 
 # Gaps? #TBD
 
-* Grounding in Facts, to cure Hallucinations (e.g. LLM + KB/KG with RAG)
-* More Multi Modal, and Sensing ([watch Project Astra](https://deepmind.google/technologies/gemini/project-astra/)!)
-* Interacting with Our World (Web, APIs)
+- Grounding in Facts, to cure Hallucinations (e.g. LLM + KB/KG with RAG)
+- More Multi Modal, and Sensing ([watch Project Astra](https://deepmind.google/technologies/gemini/project-astra/)!)
+- Interacting with Our World (Web, APIs)
 
-<!-- Combining Large Language Models (LLMs) with Knowledge Graphs (KGs) and Retrieval-Augmented Generation (RAG) looks promising.
+<!--
+Combining Large Language Models (LLMs) with Knowledge Graphs (KGs) and Retrieval-Augmented Generation (RAG) looks promising.
 
 You would be surprised how difficult it is to build an Assistant that can buy movie tickets or make restaurant reservations only.
 
-Something like Gemini's Extensions, to connect it to your Gmail & Google Docs, Google Maps or Flights, or YouTube are only the very early beginning. -->
+Something like Gemini's Extensions, to connect it to your Gmail & Google Docs, Google Maps or Flights, or YouTube are only the very early beginning.
+-->
 
 ---
 

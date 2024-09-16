@@ -7,4 +7,4 @@ licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https
 
 [The `ai.md` source](ai.md) can be viewed with:
 
-* [sli.dev](slidev)
+* [sli.dev](sli.dev/README.md)

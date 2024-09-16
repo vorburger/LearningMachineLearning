@@ -8,3 +8,7 @@ licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https
 [The `ai.md` source](ai.md) can be viewed with:
 
 * [sli.dev](sli.dev/README.md)
+
+This has so far been presented:
+
+* 2024-09-30 [Alliance Graphique Internationale (AGI) Open Conference](https://agi-open.com)

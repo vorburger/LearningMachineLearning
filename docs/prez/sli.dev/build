@@ -6,4 +6,7 @@ npm install
 npm run build
 ln -s ../images/ dist/images
 
-npm run export
+npm run export-md-png
+
+# Broken? See https://github.com/slidevjs/slidev/issues/1872
+npm run export-pdf

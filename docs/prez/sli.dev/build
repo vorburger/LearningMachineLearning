@@ -19,7 +19,8 @@ mv slides-export dist/
 
 # Avoid breaking existing links
 mkdir -p dist/prez/sli.dev/
-ln -s ../.. dist/prez/sli.dev/dist
+# NO! ;) See https://github.com/actions/upload-pages-artifact/issues/51 : ln -s ../.. dist/prez/sli.dev/dist
+echo "Content moved, go to https://www.vorburger.ch/LearningMachineLearning/" >dist/prez/sli.dev/README.txt
 
 # For Cover PNG linked from https://github.com/slidevjs/docs/pull/188
 ln -s slides-export dist/png

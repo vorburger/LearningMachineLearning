@@ -34,10 +34,15 @@ I'll speak fast, let's chat together about questions during the breaks?
 -->
 
 ---
-layout: two-cols
+layout: image
+image: /images/google-gemini.png
+backgroundSize: contain
 ---
 
-# Input
+# 🫢
+
+<!--
+How does this work? What does this mean for the future?
 
 Prompt: _Can you make this sound cooler?_
 
@@ -50,6 +55,7 @@ _Michael Vorburger has been fascinated by the creative power of computers from a
 How does this work? What does this mean for the future?
 
 _By night, Michael Vorburger transforms into a digital alchemist, coaxing unseen potential from the very ones and zeros that form our world. An avid hacker with a website that whispers secrets of the craft (https://www.vorburger.ch), he spends his days architecting the intricate machinery of Machine Learning infrastructure for Google. While tonight, he sheds his corporate cloak to share his personal visions, untethered and electrifying._
+-->
 
 ---
 layout: quote
@@ -57,7 +63,7 @@ layout: quote
 
 _“AI is one of the most important things humanity is working on. It is more profound than (...) electricity or fire."_
 
-Sundar Pichai, Google CEO, [2018](https://www.cnbc.com/2018/02/01/google-ceo-sundar-pichai-ai-is-more-important-than-fire-electricity.html) and later.
+Sundar Pichai, Google CEO, [2018](https://www.cnbc.com/2018/02/01/google-ceo-sundar-pichai-ai-is-more-important-than-fire-electricity.html).
 
 ❓ What do _you_ think?
 
@@ -115,18 +121,26 @@ layout: fact
 # How did you learn your mother tongue?
 
 ---
-layout: full
+layout: two-cols-header
 ---
 
-# Survey: How **did** _you_ learn your mother tongue? 👶
+# How _did_ you learn your mother tongue?
 
-<br/>
+::left::
 
-a) I was _programmed_ by being 🍼 fed many 🔪 chopped up grammar and vocabulary 📖 books, and thus learned syntax and semantics to sound smart!
+## a)
 
-b) I 🐤 babbled incoherently for **many years**, until, after _a lot of_ visual 😙 and 👂 audio cue _reinforcements,_ I **finally** figured out how to make sense!
+I 👶 was 💻 _programmed_ by being 🍼 fed many 🔪 chopped up grammar and vocabulary 📖 books, and thus learned syntax and semantics to sound smart!
 
+::right::
+
+## b)
+
+I 🐤 babbled incoherently for **years**, until, after _a lot of_ visual 😙 and 👂 audio cue _reinforcements,_ I **finally** figured out how to make sense!
+
+<!--
 Quick show of hands... who a) ... who b) ❓ 😆
+-->
 
 ---
 
@@ -180,6 +194,8 @@ Inferring effort is much smaller (comparatively).
 
 Mobile Phones can ✨ do (~) inference locally, without ☁️ Cloud DC! (Interesting for 🔏 Privacy.)
 
+PS: Reality often is a Pipeline with Workflow of \* N models.
+
 <!--
 Pictures of digits, cats & dogs, or texts...
 -->
@@ -214,30 +230,6 @@ PS: Training is still proprietary - it's hard to DIY.
 
 ---
 
-# Applications
-
-- Chat Bots
-- Coding: E.g. GitHub Copilot (and many others)
-- Productivity: E.g. documents, email summary; or Meeting Minutes transcription
-- Health: E.g. [Google's Health AI](https://ai.google/discover/healthai/) for breast cancer 🩻 [screening](https://www.youtube.com/watch?v=CzgMUVPduZA) or expanding access to ultrasound
-- Science: E.g. 🧬 [AlphaFold](https://www.youtube.com/watch?v=gg7WjuFs8F4) "protein folding" breakthrough unlocking research of new medicines ([access](https://alphafoldserver.com/))
-- **Education:** E.g. [Khan Academy's Khanmigo](https://www.youtube.com/watch?v=hJP5GqnTrNo&t=4s), or Homework with [Google Lens](https://lens.google)
-- Deepfakes & misinformation spam - **and** their detection
-
-Is (some of) this _"creative"?_ You tell me...
-
-<!--
-TODO Try Google Lens with Homework & screenshot it
--->
-
----
-layout: image
-image: /images/alphafold.png
-backgroundSize: contain
----
-
----
-
 # Personalized LLM
 
 Large Models might know about "the world", not (yet) "your world"... but:
@@ -249,29 +241,70 @@ Large Models might know about "the world", not (yet) "your world"... but:
 - _"Workflows"_ (e.g. LangChain's LangGraph, et al.)
 
 ---
-
-# The Future
-
-Artificial general intelligence - AGI? Superintelligence?
-
-Not super duper clear to anyone what exactly this really means... 😄
-
-Generally colloquially used as ~ _"[it can do some of your work](https://en.wikipedia.org/wiki/Artificial_general_intelligence#Tests_for_human-level_AGI)"._
-
-We'll see; the next few years are going to be very interesting!
-
-<!--
-Turing Test, Robot College Student Test, Employment Test, Ikea Test, Coffee Test, Modern Turing Test
--->
-
----
 layout: image
 image: /images/star-trek-scotty.gif
 ---
 
 ---
+
+# The Future?
+
+Artificial general intelligence - AGI? Superintelligence?
+
+Not super clear what exactly _"AGI"_ really means...
+
+Generally used as ~ _"[it can do some of your work](https://en.wikipedia.org/wiki/Artificial_general_intelligence#Tests_for_human-level_AGI)"._
+
+_Matrix_ of 🤖 _Terminator_ taking ☠️ over?
+
+More like 🧠 humans' latest 🛠️ tool...
+
+Jobs will change, yes - but haven't they always? 🐎
+
+The next few years are going to be very interesting!
+
+<!--
+I didn't come here with a horse carriage, like I would have just a 100 year ago; and we don't have coachmen anymore, we didn't need that job anymore.
+
+But in the bright side, there A LOT of new jobs nowadays which didn't exist 100 years ago.
+
+Turing Test, Robot College Student Test, Employment Test, Ikea Test, Coffee Test, Modern Turing Test
+-->
+
+---
 layout: image
 image: /images/KITT_Speaks_Spanish_Knight_Rider-ezgif.com-video-to-gif-converter.gif
+---
+
+---
+
+# Applications
+
+- 💬 Chat Bots, [Image](https://huggingface.co/spaces/nyxai-lab/perspectives-on-ai) & [Movie Generation](https://www.youtube.com/@aicinemaof)
+- 💻 Coding: E.g. GitHub Copilot (and others)
+- 🏢 Productivity: E.g. documents, email summary; or Meeting Minutes transcription
+- ⚕️ **Health:** E.g. [Google's Health AI](https://ai.google/discover/healthai/) for breast cancer 🩻 [screening](https://www.youtube.com/watch?v=CzgMUVPduZA) or expanding access to ultrasound
+- ⚛️ **Science:** E.g. Google DeepMind's 🧬 [AlphaFold](https://www.youtube.com/watch?v=gg7WjuFs8F4) (open [access](https://alphafoldserver.com/)), or 🧮 [Math](https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/) 🏅 Olympiad
+- 🎒 **Education:** E.g. [Khan Academy's Khanmigo](https://www.youtube.com/watch?v=hJP5GqnTrNo&t=4s), or Homework with [Google Lens](https://lens.google)
+- Deepfakes & misinformation spam - **and** their detection
+
+Is (some of) this _"creative"?_ You tell me...
+
+<!--
+AlphaFold "protein folding" breakthrough unlocking research of new medicines
+
+AlphaProof & AlphaGeometry solved 4 / 6 problems from this year’s International Mathematical Olympiad (IMO);
+https://www.theguardian.com/technology/article/2024/jul/25/google-deepmind-takes-step-closer-to-cracking-top-level-maths
+
+Khan also e.g. https://www.youtube.com/watch?v=_EfEoSP7oYQ (after aforementioned TED Talk)
+
+TODO Try Google Lens with Homework & screenshot it
+-->
+
+---
+layout: image
+image: /images/alphafold.png
+backgroundSize: contain
 ---
 
 ---
@@ -292,6 +325,26 @@ Combining Large Language Models (LLMs) with Knowledge Graphs (KGs) and Retrieval
 You would be surprised how difficult it is to build an Assistant that can buy movie tickets or make restaurant reservations only.
 
 Something like Gemini's Extensions, to connect it to your Gmail & Google Docs, Google Maps or Flights, or YouTube are only the very early beginning.
+-->
+
+---
+layout: image
+image: /videos/Optimism-Captain.webp
+backgroundSize: contain
+---
+
+<!--
+To quote Dr. Phlox, from Star Trek: "Optimism, Captain!"
+
+# Optimism
+
+<SlidevVideo v-click autoplay controls>
+  < ! -- Anything that can go in an HTML video element. - - >
+  <source src="/videos/Optimism-Captain.mp4" type="video/mp4" />
+  <p>
+    Your browser does not support videos. You may download it <a href="/videos/Optimism-Captain.mp4">here</a>.
+  </p>
+</SlidevVideo>
 -->
 
 ---

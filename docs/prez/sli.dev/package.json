@@ -3,7 +3,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "slidev build --dark --base /LearningMachineLearning/prez/sli.dev/dist/",
+    "build": "slidev build --dark --base /LearningMachineLearning/",
     "dev": "slidev --open",
     "export-pdf": "slidev export --dark --with-toc --output dist/slides.pdf",
     "export-md-png": "slidev export --dark --format md"

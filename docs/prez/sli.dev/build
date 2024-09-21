@@ -16,7 +16,12 @@ npm run export-md-png
 # https://github.com/slidevjs/slidev/issues/1874
 mv slides-export.md dist/png.md
 mv slides-export dist/
-# Just to avoid breaking existing links, e.g. in https://github.com/slidevjs/docs/pull/188
+
+# Avoid breaking existing links
+mkdir -p dist/prez/sli.dev/
+ln -s ../.. dist/prez/sli.dev/dist
+
+# For Cover PNG linked from https://github.com/slidevjs/docs/pull/188
 ln -s slides-export dist/png
 
 npm run export-pdf

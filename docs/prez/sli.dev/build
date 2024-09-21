@@ -4,7 +4,6 @@ set -euxo pipefail
 npm install
 
 npm run build
-ln -s ../images/ dist/images
 
 # https://github.com/slidevjs/slidev/issues/1872
 if [ ! -f /usr/local/share/fonts/NotoColorEmoji.ttf ]; then

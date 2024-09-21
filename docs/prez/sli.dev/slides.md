@@ -65,6 +65,14 @@ _“AI is one of the most important things humanity is working on. It is more pr
 
 Sundar Pichai, Google CEO, [2018](https://www.cnbc.com/2018/02/01/google-ceo-sundar-pichai-ai-is-more-important-than-fire-electricity.html).
 
+<br/>
+
+_"It really was a huge surprise, when, in 2022, **AI woke up**."_
+
+Bill Gates, in his _What's Next?_ (Netflix)
+
+<br/>
+
 ❓ What do _you_ think?
 
 ---
@@ -90,6 +98,17 @@ _[Modern day AI](https://en.wikipedia.org/wiki/Outline_of_artificial_intelligenc
 Initially 🔣 _"[symbolic](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)"_ with _"rules",_ e.g. _Expert Systems_ à la [Cyc](https://en.wikipedia.org/wiki/Cyc); AI ❄️ Winters.
 
 _Machine Learning_ (ML), with _Deep Learning_ for _Generative AI_ are subfields of AI - with a different take; why?
+
+<!--
+To give you a timeline, a scientific paper that is often referred to as a breakthrough milestone is the Transformer's by Researchers at Google, published (only) in 2017.
+
+But let's take a quick detour...
+
+* https://arxiv.org/abs/1706.03762
+* https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
+* https://research.google/blog/transformer-a-novel-neural-network-architecture-for-language-understanding/
+* https://www.wired.com/story/eight-google-employees-invented-modern-ai-transformers-paper/
+-->
 
 ---
 layout: fact
@@ -163,7 +182,7 @@ layout: center
 
 Is ML 🪄 magic? Not at all... the basic idea is really quite simply, actually! To illustrate:
 
-High-school math: `y = a*x + b`
+🏫 Remember? `y = a*x + b` 🧮
 
 Given a _training data set_ of some _points_ (x,y) representing car fuel efficiency,
 
@@ -171,9 +190,7 @@ where X is car weight an Y is KMs per Liter of Gas...
 
 ...find `a` and `b` - and that's a (2D) ML model, of 2 parameters!
 
-Now, given a new car's _weight_ (X), you could (roughly) _predict_ its gas consumption.
-
-_Except that a real LLM is a little bit bigger; e.g. [Google's open source Gemma](https://ai.google.dev/gemma) (v2) has 27 billion 👍 instead of just 2 such parameters! (And [Google's Gemini](https://deepmind.google/technologies/gemini/) is even bigger.)_
+Given car's _weight_ (X), you can _predict_ its gas consumption (Y).
 
 ---
 layout: image
@@ -181,23 +198,102 @@ image: /images/car-data-points-with-model.png
 backgroundSize: contain
 ---
 
+<!--
+Picture says more than words? But how did we find the a & b parameter...
+-->
+
+---
+layout: image
+image: /videos/linear_regression.gif
+backgroundSize: contain
+---
+
+<!--
+We literally just make a computer program try out values for a and b, to try to make the model have "good accuracy" - in this case, that just means "making the red line as close to those green points as it can be".
+
+A large language model really is (kind of) similar to this - except that instead of have 2 parameters, for a and b, it has more - many more...
+
+Copyright © 2020-2021 Gajanan Bhat. All rights reserved.
+
+<https://gbhat.com>
+-->
+
+---
+layout: image
+image: /videos/Multi-Linear Regression Model Visualization.gif
+backgroundSize: contain
+---
+
+<!--
+... imagine, that instead of only having to find x2 parameters, a & b, for X car weight and Y gas (or 🔋 electricity!) consumption, you need more parameters, e.g. for Pie Sales, Price, and Advertising cost?
+
+PS: This is technically mathematically not entirely accurate (because it's not really about spatial dimensions, but function parameters; really a quadratic or N polynomial function on 2-D X & Y would in a sense be more accurately making this point) - but this is a just a better visual illustration! ;-)
+
+<https://github.com/rafiag/DTI2020/blob/main/images/Multi-Linear%20Regression%20Model%20Visualization.gif>
+-->
+
+---
+
+# GenAI ML Models
+
+GenAI ML Models really are just such parameters...
+
+... except that a real LLM is _a little bit_ bigger!
+
+E.g. [Google's open source Gemma](https://ai.google.dev/gemma) (v2) has **27 billion** 👍 parameters!
+
+(And [Google's Gemini Models](https://deepmind.google/technologies/gemini/) are even bigger.)
+
+💬 Words to 1️⃣2️⃣3️⃣ numbers & 🧮 _prediction!_
+
+Or 🗣️ voice. Or 🖼️ images. Or 🎥 videos.
+
+Often _Pipelines_ of \* N models.
+
+<!--
+Instead of just 2 or 3 such parameters, as seen previously.
+
+In reality often not just 1 model, but Pipelines with Workflows connecting several models.
+-->
+
+---
+layout: two-cols-header
 ---
 
 # Training & Inferring
 
-- _Training_ is creating said _ML Models_ of _Parameters_ (from input data)
-- _Inferring_ (AKA _serving)_ is giving a model new (unseen) input, asking it to _"infer"_ output
+Separate phases
 
-Training effort is (~) proportional to size of input data.
+::left::
 
-Inferring effort is much smaller (comparatively).
+_Training_ is **creating** _ML Models_
 
-Mobile Phones can ✨ do (~) inference locally, without ☁️ Cloud DC! (Interesting for 🔏 Privacy.)
+of _Parameters_ - from input training data.
 
-PS: Reality often is a Pipeline with Workflow of \* N models.
+Effort (~) proportional to size of input data.
+
+<br/>
+
+_Finding `a` & `b` etc. (**27B!**) parameters._
+
+::right::
+
+_Inferring_ (AKA _serving)_ is giving a model new
+
+(unseen) input, asking it to _"infer"_ output.
+
+Effort is (comparatively) much smaller.
+
+<br/>
+
+_Calculating `Y` given `X`, having `a` & `b`._
 
 <!--
 Pictures of digits, cats & dogs, or texts...
+
+📱 Mobile Phones can ✨ do (~) inference locally.
+
+No ☁️ Cloud (DC) is more 🔏 #private & #fast.
 -->
 
 ---
@@ -234,7 +330,7 @@ PS: Training is still proprietary - it's hard to DIY.
 
 Large Models might know about "the world", not (yet) "your world"... but:
 
-- Huge prompts _("context window size")_ to "chat with your PDFs" works; try e.g. [NotebookLM](https://notebooklm.google).
+- Huge prompts _("context window size")_ to "chat with your PDFs" works; try e.g. [NotebookLM](https://notebooklm.google)!
 
 - _Fine Tuning_ is another ML technique to efficiently adapt a previously pre-trained model with new data.
 

@@ -6,7 +6,13 @@ npm install
 npm run build
 ln -s ../images/ dist/images
 
+# https://github.com/slidevjs/slidev/issues/1872
+if [ ! -f /usr/local/share/fonts/NotoColorEmoji.ttf ]; then
+  curl -L --output NotoColorEmoji.ttf https://github.com/googlefonts/noto-emoji/raw/main/fonts/NotoColorEmoji.ttf
+  sudo mv NotoColorEmoji.ttf /usr/local/share/fonts/
+  fc-cache -fv
+fi
+
 npm run export-md-png
 
-# Broken? See https://github.com/slidevjs/slidev/issues/1872
 npm run export-pdf

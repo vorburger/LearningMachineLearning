@@ -63,7 +63,7 @@ Sundar Pichai, Google CEO, [2018](https://www.cnbc.com/2018/02/01/google-ceo-sun
 
 ---
 layout: image
-image: images/wordcloud.svg
+image: /images/wordcloud.svg
 ---
 
 <!--
@@ -162,7 +162,7 @@ _Except that a real LLM is a little bit bigger; e.g. [Google's open source Gemma
 
 ---
 layout: image
-image: images/car-data-points-with-model.png
+image: /images/car-data-points-with-model.png
 ---
 
 ---
@@ -194,7 +194,7 @@ You need a massive amount of text of images or video to train Large Models with 
 
 ---
 layout: image
-image: images/TPU_v5L_Pod_-_Front_View_-_Web.max-2600x2600.jpg
+image: /images/TPU_v5L_Pod_-_Front_View_-_Web.max-2600x2600.jpg
 ---
 
 ---
@@ -229,7 +229,7 @@ TODO Try Google Lens with Homework & screenshot it
 
 ---
 layout: image
-image: images/alphafold.png
+image: /images/alphafold.png
 ---
 
 ---
@@ -262,12 +262,12 @@ Turing Test, Robot College Student Test, Employment Test, Ikea Test, Coffee Test
 
 ---
 layout: image
-image: images/star-trek-scotty.gif
+image: /images/star-trek-scotty.gif
 ---
 
 ---
 layout: image
-image: images/KITT_Speaks_Spanish_Knight_Rider-ezgif.com-video-to-gif-converter.gif
+image: /images/KITT_Speaks_Spanish_Knight_Rider-ezgif.com-video-to-gif-converter.gif
 ---
 
 ---

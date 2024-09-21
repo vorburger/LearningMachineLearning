@@ -2,5 +2,8 @@
 set -euxo pipefail
 
 npm install
+
 npm run build
+ln -s ../images/ dist/images
+
 npm run export

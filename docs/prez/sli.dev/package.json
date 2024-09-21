@@ -6,7 +6,7 @@
     "build": "slidev build --dark --base /LearningMachineLearning/prez/sli.dev/dist/",
     "dev": "slidev --open",
     "export-pdf": "slidev export --dark --with-toc --output dist/slides.pdf",
-    "export-md-png": "slidev export --dark --format md --output dist/png"
+    "export-md-png": "slidev export --dark --format md"
   },
   "dependencies": {
     "@slidev/cli": "^0.49.29",

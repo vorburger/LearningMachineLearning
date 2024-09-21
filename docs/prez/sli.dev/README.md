@@ -12,4 +12,6 @@ To start the slide show:
 
 Edit [`slides.md`](slides.md) to see the changes; run `npx prettier slides.md --write` to format.
 
+[`build`](build) will generate HTML & PDF into `dist/`.
+
 Learn more about Slidev at the [documentation](https://sli.dev/).

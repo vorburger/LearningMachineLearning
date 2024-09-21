@@ -42,7 +42,8 @@ backgroundSize: contain
 # 🫢
 
 <!--
-How does this work? What does this mean for the future?
+How the heck does this work?! And what does all this mean for the future? BTW, you can try this out for yourself on gemini.google.com ...
+
 
 Prompt: _Can you make this sound cooler?_
 
@@ -89,18 +90,28 @@ https://www.jasondavies.com/wordcloud/
 
 # History 🏯
 
-<br>
+<br/>
 
-_Artificial Intelligence_ (AI) arguably [started in 🏺 antiquity](https://en.wikipedia.org/wiki/Timeline_of_artificial_intelligence).
+_Artificial Intelligence_ (AI) arguably [an 🏺 ancient dream](https://en.wikipedia.org/wiki/Timeline_of_artificial_intelligence).
 
 _[Modern day AI](https://en.wikipedia.org/wiki/Outline_of_artificial_intelligence)_ from ~1960s, with emergence of Computer Science.
 
-Initially 🔣 _"[symbolic](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)"_ with _"rules",_ e.g. _Expert Systems_ à la [Cyc](https://en.wikipedia.org/wiki/Cyc); AI ❄️ Winters.
+Initially 🔣 _"[symbolic](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)"_ with _"rules",_ e.g. _Expert Systems_ à la [Cyc](https://en.wikipedia.org/wiki/Cyc).
 
-_Machine Learning_ (ML), with _Deep Learning_ for _Generative AI_ are subfields of AI - with a different take; why?
+AI ❄️ Winter/s.
+
+<br/>
+
+_Machine Learning_ (ML), with _Deep Learning_ for _Generative AI_ are subfields of AI...
+
+...which are different - why?
 
 <!--
-To give you a timeline, a scientific paper that is often referred to as a breakthrough milestone is the Transformer's by Researchers at Google, published (only) in 2017.
+AI arguably started in antiquity - the 1st link is to an interesting "AI history" sort of table on Wikipedia, which mentions e.g. ancient Greek myth of Talos, the giant automaton in Crete from ca. 700 BC, or the jewish Golem, or the Takwin of Muslim alchemists from 8th century, or the Homunculus of 16th century European alchemists such as Paracelsus, or perhaps even the Tulpa of Tibetan Buddhism's, and later Theosophists.
+
+...
+
+To give you a current day timeline, a scientific paper that is often referred to as a breakthrough milestone is the Transformer's by Researchers at Google, published (only) in 2017.
 
 But let's take a quick detour...
 
@@ -122,7 +133,7 @@ layout: fact
 
 <br>
 
-Programming is to give computers (very) precise instructions, AKA _"Code",_ for what you want them to do, like:
+Programming gives computers precise instructions, like:
 
 - Print `hello, world`
 - Variable `i = 7`
@@ -132,6 +143,10 @@ Programming is to give computers (very) precise instructions, AKA _"Code",_ for 
 Written in a computer language - try out [Scratch](https://scratch.mit.edu), it's great to learn concepts!
 
 <small>(Or C++ or Java & Kotlin or C# or Python or JavaScript & TypeScript or Go or Rust, etc.)</small>
+
+<!--
+Programming, AKA coding, gives computers precise instructions, very precise, which we call,for what you want them to do.
+-->
 
 ---
 layout: fact
@@ -165,14 +180,36 @@ Quick show of hands... who a) ... who b) ❓ 😆
 
 # Machine Learning (ML)
 
+Treat computers like 👶 babies! Probabilistics:
+
+- _♟️ Chess_ through _trial & error_ - instead _rules_
+- _👀 Vision_ with example images - instead _algorithms_
+- _📸 Camera 📱 quality_ similarly - instead _filters_
+- _✍️ Grammar Checking_ from examples - instead _language grammar_
+- _🌐 Machine translation_ by "reading" human translated books - instead _2 grammars_
+- _💬 Large Language Models_ (LLM) by _"reading"_ **lots** of text
+
+<br/>
+
+Idea is not new ([backpropagation](https://en.wikipedia.org/wiki/Backpropagation) ~1980s?)...
+
+...but only quite recently (~2010s+ ?) turned out to become more 🚀 viable at scale, due to the
+
+availability of _Big Data_ and massive storage & _Super Computer_ infrastructures in _☁️ Clouds._
+
+<!--
 The idea of ML is ~ just to treat computers as 👶 babies, instead of _programming_ them! For example:
 
-- Chess through _trial & error_ - instead _rules_
-- _Vision_ with example images - instead of _algorithms_
-- _Machine translation_ by "reading" human translated books - instead grammar
-- _Large Language Models_ (LLM) by "reading" _A LOT_ of text, and then reply to prompts
+...
 
-The basic idea is not that new ([backpropagation](https://en.wikipedia.org/wiki/Backpropagation) ~1980s?), but it turned out to be a lot more 🚀 _"fun"_ with the emerging increasing availability of _Big Data_ and massive cloud storage & super compute cluster infrastructures, starting ~2010s.
+LLMs basically do the same to be able to reply to prompts where you chat with them and ask them questions.
+
+The basic idea is not that new ([backpropagation](https://en.wikipedia.org/wiki/Backpropagation) ~1980s?)...
+
+...but only recently (~2010s+ ?) it suddenly turned out to be a lot more 🚀 interesting, due to the
+
+emerging increasing availability of _Big Data_ and massive storage & _Super Computer_ infrastructures in _☁️ Clouds._
+-->
 
 ---
 layout: center
@@ -180,17 +217,25 @@ layout: center
 
 # Magic?
 
-Is ML 🪄 magic? Not at all... the basic idea is really quite simply, actually! To illustrate:
+Is ML 🪄 magic? Not at all... basic idea is quite simply, actually! To illustrate:
 
 🏫 Remember? `y = a*x + b` 🧮
 
-Given a _training data set_ of some _points_ (x,y) representing car fuel efficiency,
+<br/>
 
-where X is car weight an Y is KMs per Liter of Gas...
+Given a _training data set_ of e.g. car fuel efficiency `(x,y)` _points,_
 
-...find `a` and `b` - and that's a (2D) ML model, of 2 parameters!
+where `X` is a 🚗 car's 🏋️ weight, and `Y` is its KMs per Liter of Gas (or 🔋)...
 
-Given car's _weight_ (X), you can _predict_ its gas consumption (Y).
+...find "best" `a` and `b` - that's a _"model",_ of 2 parameters!
+
+<br/>
+
+Given new car's _weight_ (X), you can _predict_ its consumption (Y).
+
+<!--
+Is ML 🪄 magic? Not at all... the basic idea is really quite simply, actually! To illustrate:
+-->
 
 ---
 layout: image
@@ -211,7 +256,7 @@ backgroundSize: contain
 <!--
 We literally just make a computer program try out values for a and b, to try to make the model have "good accuracy" - in this case, that just means "making the red line as close to those green points as it can be".
 
-A large language model really is (kind of) similar to this - except that instead of have 2 parameters, for a and b, it has more - many more...
+E.g. a large language model really is (kind of) similar to this - except that instead of have 2 parameters, for a and b, it has more - many more...
 
 Copyright © 2020-2021 Gajanan Bhat. All rights reserved.
 
@@ -234,6 +279,28 @@ PS: This is technically mathematically not entirely accurate (because it's not r
 
 ---
 
+# 🧠 Your Brain is a Biological Neural Network
+
+<div style="background:white; display: flex; justify-content: center; align-items: center;">
+
+![Neuron](/images/main-qimg-bc7fe92df7c9be5e697169f127a2dd8e.webp)
+
+</div>
+
+<!--
+If in addition to remembering Linear Regression from your High School Math class you also remember a little bit of your biology 101, then perhaps this image is familiar to you? It's
+-->
+
+---
+layout: image
+image: /videos/playground.tensorflow.org.webp
+backgroundSize: contain
+---
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [Tensorflow Playground](https://playground.tensorflow.org)
+
+---
+
 # GenAI ML Models
 
 GenAI ML Models really are just such parameters...
@@ -244,16 +311,20 @@ E.g. [Google's open source Gemma](https://ai.google.dev/gemma) (v2) has **27 bil
 
 (And [Google's Gemini Models](https://deepmind.google/technologies/gemini/) are even bigger.)
 
+<br/>
+
 💬 Words to 1️⃣2️⃣3️⃣ numbers & 🧮 _prediction!_
 
 Or 🗣️ voice. Or 🖼️ images. Or 🎥 videos.
+
+<br/>
 
 Often _Pipelines_ of \* N models.
 
 <!--
 Instead of just 2 or 3 such parameters, as seen previously.
 
-In reality often not just 1 model, but Pipelines with Workflows connecting several models.
+In reality often not just 1 model, but Pipelines with Workflows connecting several models; e.g. LangChain's LangGraph in FLOSS.
 -->
 
 ---
@@ -297,14 +368,38 @@ No ☁️ Cloud (DC) is more 🔏 #private & #fast.
 -->
 
 ---
+layout: center
+---
 
-# Training Data
+# Data?
 
 <br>
 
-You need a massive amount of text of images or video to train Large Models with billions of parameters...
+You need a **massive** amount of text & images & video to train Large Models with billions of parameters...
 
-... and there are some interesting open questions around this.
+©️ ® ™ 👩‍⚖️ ❓
+
+---
+layout: center
+---
+
+# Energy?
+
+Specialized Hardware (GPU, TPU, NPU) - for parallel 🤓 matrix computation (similar to 🎮 gaming graphics).
+
+Both training (more), but also inference (less); use 🔋 energy... 🐢 🐧 ?
+
+<br/>
+
+Who pays? You, eventually, e.g. with:
+
+- 🎥 Ads
+
+- 🪟 Licenses
+
+- 🤑 Pricey 🍎 HW 📱
+
+- 💸 Subscriptions
 
 ---
 layout: image
@@ -313,16 +408,30 @@ backgroundSize: contain
 ---
 
 ---
+layout: center
+---
 
 # Cloud? Open Source?
 
 ChatGPT & Google Gemini etc. run in the ☁️ Cloud.
 
-You can download e.g. Google's Gemma, Meta's Llama, Mistral, etc. to run them yourself "at home".
+You can download e.g. Google's ♊ Gemma, Meta's
+<br/>🦙 Llama, 🇫🇷 Mistral, et al., to run them yourself.
 
-Do try e.g. 🦙 [Ollama](https://ollama.com) to run an [LLM @ Home on a GPU](https://github.com/vorburger/vorburger.ch-Notes/blob/develop/ml/ollama1.md).
+Do try e.g. [Ollama](https://ollama.com) to run an [LLM @ Home 🏡](https://github.com/vorburger/vorburger.ch-Notes/blob/develop/ml/ollama1.md)
+<br/>(e.g. AMD RX 7600 = $400 or NVIDIA H100 = $30k!).
 
-PS: Training is still proprietary - it's hard to DIY.
+<br/>
+
+LM training is still proprietary - it's hard to DIY.
+
+(But you can train smaller models, or _fine tune.)_
+
+---
+layout: image
+image: /images/h100.webp
+backgroundSize: contain
+---
 
 ---
 
@@ -334,12 +443,38 @@ Large Models might know about "the world", not (yet) "your world"... but:
 
 - _Fine Tuning_ is another ML technique to efficiently adapt a previously pre-trained model with new data.
 
-- _"Workflows"_ (e.g. LangChain's LangGraph, et al.)
+- Coming to 🤑 device gadgets near you: 🪟 Copilot+ 💻 PCs, 📱 Google Pixel 8, 🍎 Apple Intelligence, etc.
+
+- Try e.g. Google Gemini Workspace Extensions...
+
+---
+layout: image
+image: /images/notebooklm.google.com.png
+backgroundSize: contain
+---
+
+---
+layout: two-cols
+---
+
+# E.g. Gemini Extensions
+
+<br/>
+
+![Google Gemini Extensions](/images/google-gemini-extensions.png)
+
+::right::
+
+![Google Gemini Gmail Email Access](/images/google-gemini-conference-email.png)
 
 ---
 layout: image
 image: /images/star-trek-scotty.gif
 ---
+
+<!--
+Scotty tries to talk into the mouse of a computer in Star Trek... this used to be a joke, but... we're there now.
+-->
 
 ---
 
@@ -376,15 +511,25 @@ image: /images/KITT_Speaks_Spanish_Knight_Rider-ezgif.com-video-to-gif-converter
 
 # Applications
 
-- 💬 Chat Bots, [Image](https://huggingface.co/spaces/nyxai-lab/perspectives-on-ai) & [Movie Generation](https://www.youtube.com/@aicinemaof)
-- 💻 Coding: E.g. GitHub Copilot (and others)
-- 🏢 Productivity: E.g. documents, email summary; or Meeting Minutes transcription
-- ⚕️ **Health:** E.g. [Google's Health AI](https://ai.google/discover/healthai/) for breast cancer 🩻 [screening](https://www.youtube.com/watch?v=CzgMUVPduZA) or expanding access to ultrasound
-- ⚛️ **Science:** E.g. Google DeepMind's 🧬 [AlphaFold](https://www.youtube.com/watch?v=gg7WjuFs8F4) (open [access](https://alphafoldserver.com/)), or 🧮 [Math](https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/) 🏅 Olympiad
-- 🎒 **Education:** E.g. [Khan Academy's Khanmigo](https://www.youtube.com/watch?v=hJP5GqnTrNo&t=4s), or Homework with [Google Lens](https://lens.google)
-- Deepfakes & misinformation spam - **and** their detection
+<br/>
 
-Is (some of) this _"creative"?_ You tell me...
+💬 Chat Bots, [Image](https://huggingface.co/spaces/nyxai-lab/perspectives-on-ai) & [Movie Generation](https://www.youtube.com/@aicinemaof)
+
+💻 Coding: E.g. GitHub Copilot (and others)
+
+🏢 Productivity: E.g. documents, email summary; or Meeting Minutes transcription
+
+⚕️ **Health:** E.g. [Google's Health AI](https://ai.google/discover/healthai/) for breast cancer 🩻 [screening](https://www.youtube.com/watch?v=CzgMUVPduZA) or expanding access to ultrasound
+
+⚛️ **Science:** E.g. Google DeepMind's 🧬 [AlphaFold](https://www.youtube.com/watch?v=gg7WjuFs8F4) (open [access](https://alphafoldserver.com/)), or 🧮 [Math](https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/) 🏅 Olympiad
+
+🎒 **Education:** E.g. [Khan Academy's Khanmigo](https://www.youtube.com/watch?v=hJP5GqnTrNo&t=4s), or Homework with [Google Lens](https://lens.google)
+
+🧟 Deepfakes & 🙊 misinformation spam - **and** their 🕵️‍♀️ detection
+
+<br/>
+
+Is (some of) this _"creative"?_ Does 🧞 it _"think"?_ What **really** is creativity and thinking... 🤔
 
 <!--
 AlphaFold "protein folding" breakthrough unlocking research of new medicines
@@ -395,6 +540,8 @@ https://www.theguardian.com/technology/article/2024/jul/25/google-deepmind-takes
 Khan also e.g. https://www.youtube.com/watch?v=_EfEoSP7oYQ (after aforementioned TED Talk)
 
 TODO Try Google Lens with Homework & screenshot it
+
+https://c2pa.org for GenAI?
 -->
 
 ---
@@ -451,6 +598,7 @@ Machine Learning is a lot of fun! Get started with exploring it today:
 
 1. [`gemini.google.com`](https://gemini.google.com) to learn _"Prompt Engineering"_
 1. [Google AI Explorables](https://pair.withgoogle.com/explorables/)
+1. [Tensorflow Playground](https://playground.tensorflow.org)
 
 For developers:
 

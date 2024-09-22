@@ -337,9 +337,9 @@ Separate phases
 
 ::left::
 
-_Training_ is **creating** _ML Models_
+_Supervised Learning / Training_ **creates** _ML Models_
 
-of _Parameters_ - from input training data.
+of _Parameters_ - from _labeled_ input training data.
 
 Effort (~) proportional to size of input data.
 
@@ -387,7 +387,7 @@ layout: center
 
 Specialized Hardware (GPU, TPU, NPU) - for parallel 🤓 matrix computation (similar to 🎮 gaming graphics).
 
-Both training (more), but also inference (less); use 🔋 energy... 🐢 🐧 ?
+Both training (more), but also inference (less); use 🔋 energy... 🐢 🐧 ? Efficiency research.
 
 <br/>
 
@@ -400,6 +400,10 @@ Who pays? You, eventually, e.g. with:
 - 🤑 Pricey 🍎 HW 📱
 
 - 💸 Subscriptions
+
+<!--
+https://www.tomshardware.com/tech-industry/artificial-intelligence/using-gpt-4-to-generate-100-words-consumes-up-to-3-bottles-of-water-ai-data-centers-also-raise-power-and-water-bills-for-nearby-residents
+-->
 
 ---
 layout: image
@@ -434,6 +438,12 @@ backgroundSize: contain
 ---
 
 ---
+layout: image
+image: /images/notebooklm.google.com.png
+backgroundSize: contain
+---
+
+---
 
 # Personalized LLM
 
@@ -446,12 +456,6 @@ Large Models might know about "the world", not (yet) "your world"... but:
 - Coming to 🤑 device gadgets near you: 🪟 Copilot+ 💻 PCs, 📱 Google Pixel 8, 🍎 Apple Intelligence, etc.
 
 - Try e.g. Google Gemini Workspace Extensions...
-
----
-layout: image
-image: /images/notebooklm.google.com.png
-backgroundSize: contain
----
 
 ---
 layout: two-cols
@@ -478,9 +482,48 @@ Scotty tries to talk into the mouse of a computer in Star Trek... this used to b
 
 ---
 
+# Gaps?
+
+It's still early days. But more is coming - and (very) quickly...
+
+- Cure LM 🤡 Hallucinations?
+  - 😲 Surprise: Users learn prompting, hallucinations no barrier
+  - Grounding in Facts, e.g. LLM + KB/KG with RAG; or [_"neuro-symbolic"_](https://en.wikipedia.org/wiki/Neuro-symbolic_AI)
+  - _Explainable Neural Networks (XNNs)_
+- More Multi Modal, and Sensing ([watch Project Astra](https://deepmind.google/technologies/gemini/project-astra/)!) #latency
+- Interacting with Our World (Web, APIs)
+- New UX? **Knowledge agent design?**
+  - Assistants on Mobile Devices
+  - Web Search _("Googling")_ merges with LLMs;<br/>e.g. [Google SGE](https://blog.google/products/search/generative-ai-search/) or browsers (e.g. Brave);<br/>future is hybrid.
+
+<!--
+Combining Large Language Models (LLMs) with Knowledge Graphs (KGs) and Retrieval-Augmented Generation (RAG) looks promising.
+
+You would be surprised how difficult it is to build an Assistant that can buy movie tickets or make restaurant reservations only.
+
+Something like Gemini's Extensions, to connect it to your Gmail & Google Docs, Google Maps or Flights, or YouTube are only the very early beginning.
+
+Google Search Generative Experience (SGE)
+-->
+
+---
+layout: image
+image: /images/KITT_Speaks_Spanish_Knight_Rider-ezgif.com-video-to-gif-converter.gif
+---
+
+<!--
+I'm not a cars sort of guy, but if I were, I would be pretty excited to get my Knight Rider KITT, any day now...
+-->
+
+---
+layout: center
+---
+
 # The Future?
 
 Artificial general intelligence - AGI? Superintelligence?
+
+<br/>
 
 Not super clear what exactly _"AGI"_ really means...
 
@@ -492,6 +535,8 @@ More like 🧠 humans' latest 🛠️ tool...
 
 Jobs will change, yes - but haven't they always? 🐎
 
+<br/>
+
 The next few years are going to be very interesting!
 
 <!--
@@ -501,11 +546,6 @@ But in the bright side, there A LOT of new jobs nowadays which didn't exist 100 
 
 Turing Test, Robot College Student Test, Employment Test, Ikea Test, Coffee Test, Modern Turing Test
 -->
-
----
-layout: image
-image: /images/KITT_Speaks_Spanish_Knight_Rider-ezgif.com-video-to-gif-converter.gif
----
 
 ---
 
@@ -532,8 +572,6 @@ image: /images/KITT_Speaks_Spanish_Knight_Rider-ezgif.com-video-to-gif-converter
 Is (some of) this _"creative"?_ Does 🧞 it _"think"?_ What **really** is creativity and thinking... 🤔
 
 <!--
-AlphaFold "protein folding" breakthrough unlocking research of new medicines
-
 AlphaProof & AlphaGeometry solved 4 / 6 problems from this year’s International Mathematical Olympiad (IMO);
 https://www.theguardian.com/technology/article/2024/jul/25/google-deepmind-takes-step-closer-to-cracking-top-level-maths
 
@@ -550,24 +588,8 @@ image: /images/alphafold.png
 backgroundSize: contain
 ---
 
----
-
-# Gaps?
-
-It's still early days. But more is coming - and (very) quickly...
-
-- _Explainable Neural Networks (XNNs)_
-- Grounding in Facts, to cure Hallucinations (e.g. LLM + KB/KG with RAG; or [_"neuro-symbolic"_](https://en.wikipedia.org/wiki/Neuro-symbolic_AI))
-- More Multi Modal, and Sensing ([watch Project Astra](https://deepmind.google/technologies/gemini/project-astra/)!) #latency
-- Interacting with Our World (Web, APIs)
-- New UX? Knowledge agent design?
-
 <!--
-Combining Large Language Models (LLMs) with Knowledge Graphs (KGs) and Retrieval-Augmented Generation (RAG) looks promising.
-
-You would be surprised how difficult it is to build an Assistant that can buy movie tickets or make restaurant reservations only.
-
-Something like Gemini's Extensions, to connect it to your Gmail & Google Docs, Google Maps or Flights, or YouTube are only the very early beginning.
+Google DeepMind's AlphaFold "protein folding" breakthrough unlocking research of new medicines
 -->
 
 ---
@@ -608,4 +630,4 @@ For developers:
 1. [TensorFlow Learn ML](https://www.tensorflow.org/resources/learn-ml)
 1. [Google AI Build](https://ai.google/build)
 
-More on [LearningMachineLearning](https://github.com/vorburger/LearningMachineLearning/blob/develop/docs/resources.md) - contributions welcome.
+More on (my) [LearningMachineLearning](https://github.com/vorburger/LearningMachineLearning/blob/develop/docs/resources.md) - contributions welcome.

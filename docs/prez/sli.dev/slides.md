@@ -631,3 +631,68 @@ For developers:
 1. [Google AI Build](https://ai.google/build)
 
 More on (my) [LearningMachineLearning](https://github.com/vorburger/LearningMachineLearning/blob/develop/docs/resources.md) - contributions welcome.
+
+---
+layout: center
+---
+
+```mermaid {theme: 'base', scale: 0.5}
+mindmap
+  root((AI))
+    ML
+      DL
+        Kind
+          Supervised
+            GenAI
+              LLM
+                GPT
+                  Open
+                    Gemma
+                    Llama
+                    Mistral
+                  Proprietary
+                    Gemini
+                    ChatGPT
+                    Copilot
+                    Claude
+                    Grok
+              Images
+                DALL·E
+                Stable Diffusion
+                Midjourney
+              Video
+              Music
+        Unsupervised
+          ?
+      Tech
+        Tensorflow
+        PyTorch
+    NLP
+    CV
+    KB
+      Logic Inference
+    Applications
+      Education
+      Health
+        AlphaFold
+      Mathematics
+        Alpha Tensor
+        Alpha Geometry
+        Alpha Proof
+        Julius.ai
+        Llemma
+      Programming
+        Coding
+          Copilot
+          Continue.dev
+        Algorithms
+          AlphaDev
+    Regulation
+      European AI Convention
+```
+
+<!--
+https://en.wikipedia.org/wiki/Artificial_intelligence
+
+TODO Expand this, modeling it with (my) https://docs.enola.dev, similar to (TBD) https://github.com/enola-dev/enola/blob/main/models/enola.dev/other.ttl
+-->

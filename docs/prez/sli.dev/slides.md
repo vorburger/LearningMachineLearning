@@ -623,6 +623,7 @@ Machine Learning is a lot of fun! Get started with exploring it today:
 
 Background: 
 
+1. [FT's GenAI](https://ig.ft.com/generative-ai/)
 1. [Poloclub Transformer Explainer](https://poloclub.github.io/transformer-explainer/)
 1. [Tensorflow Playground](https://playground.tensorflow.org)
 

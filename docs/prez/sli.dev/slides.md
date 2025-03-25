@@ -620,6 +620,10 @@ Machine Learning is a lot of fun! Get started with exploring it today:
 
 1. [`gemini.google.com`](https://gemini.google.com) to learn _"Prompt Engineering"_
 1. [Google AI Explorables](https://pair.withgoogle.com/explorables/)
+
+Background: 
+
+1. [Poloclub Transformer Explainer](https://poloclub.github.io/transformer-explainer/)
 1. [Tensorflow Playground](https://playground.tensorflow.org)
 
 For developers:

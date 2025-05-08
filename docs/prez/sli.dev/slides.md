@@ -626,6 +626,7 @@ Background:
 1. [FT's GenAI](https://ig.ft.com/generative-ai/)
 1. [Poloclub Transformer Explainer](https://poloclub.github.io/transformer-explainer/)
 1. [Tensorflow Playground](https://playground.tensorflow.org)
+1. [🤔 The Thinking Game 🎥 movie 🍿](https://thinkinggamefilm.com)
 
 For developers:
 
